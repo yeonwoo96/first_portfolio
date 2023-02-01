@@ -1,0 +1,95 @@
+@charset "utf-8";
+*{margin:0; padding:0;}
+ul,ol{list-style-type:none;}
+a{color:#777777;text-decoration:none;}	
+body{font-size:14px; 
+	line-height:150%;
+	font-family: 'Roboto', sans-serif;
+	color:#777777;}
+.kor{font-family: 'Nanum Gothic', sans-serif;}
+.myeongjo{font-family: 'Nanum Myeongjo', serif; color:#798cbf; font-weight:bold;}
+.btn:hover{transition: all .3s ease;
+    transform: translateY(-2px);
+    box-shadow: 4px 12px 20px 6px rgb(0 0 0/18%);}
+.btn{box-shadow: 0 0 4px rgba(0,0,0,0.4);}
+/*top*/
+#top{height:61px;}
+.t_in{width:1320px; margin:auto;}
+.t_in .logo{float:left; padding-top:7px;}
+.t_in ul li a{font-size:18px; 
+			display:inline-block; padding:20px 25px;}
+.t_in ul li{float:left;}
+.t_in ul{float:right;}
+.t_in ul li:nth-child(1) a{font-weight:bold; color:#798cbf;}
+.t_in ul li a:hover{font-weight:bold; color:#798cbf; }
+/*banner*/
+#banner{height:820px; background:#000; text-align:center; padding-top:300px; box-sizing:border-box;}
+#banner h1{font-size:75px; color:#fff;}
+#banner	p{margin-top:75px; line-height:45px; font-size:30px; color:#fff;}
+/*ban1*/
+.b1_in{width:1320px; text-align:center;}
+.b1_in{margin:auto; padding-top:150px;}
+.b1_in h2{font-size:30px; margin-top:75px; line-height:45px; color:#3e3e3e;}
+.b1_in .myeongjo{font-size:35px;}
+/*ban2*/
+.b2_in{width:1320px; margin:150px auto;}
+.camera img{margin-left:60px;}
+.b2_in .text{float:right; margin-right:90px; padding-top:50px;}
+.b2_in .text h1{font-size:30px; line-height:45px; margin-bottom:30px; color:#3e3e3e;}
+.b2_in .text p{font-size:15px; line-height:23px;}
+/*process*/
+#process{clear:both;}
+#process .p_in{width:1320px; margin:auto;}
+#process .photo{width:1320px; height:500px; border-radius:40px;
+		background:url(../images/fleur/back1.png); position:relative; text-align:center;
+		box-shadow:0 0 15px rgba(0,0,0,0.7);}
+#process .man{position:absolute; right:70px; bottom:0; z-index:0;}
+#process .photo h1{left: 224.17px;   position: absolute; font-size:75px; color:#fff; top:239.5px; z-index:1;}
+#process .p_in ul{margin-top:30px; height:250px;}
+#process .p_in ul li h1{font-size:20px;  margin:15px 0;}
+#process .p_in ul li{width:25%; float:left; text-align:center; height:250px; box-sizing:border-box; padding-top:30px;}
+#process .p_in ul li:nth-child(1){background:url(../images/fleur/s_1.jpg); border-radius:30px;
+text-align:center; padding-top:114.5px; box-sizing:border-box;}
+#process .p_in ul h2{font-size:20px; color: #fff;}
+#process .p_in ul li h4{position:relative;     top: -230px;
+    left: -100px;
+    font-size: 50px;
+    color: #3e3e3e}
+/*philosophy*/
+#philosophy{margin-top:150px; margin-bottom:150px; clear:both;}
+#philosophy .p_in{width:1320px; margin:auto;}
+#philosophy .photo{width:1320px; height:600px; border-radius:40px;
+		background:url(../images/fleur/back2.png); position:relative; text-align:center;
+		box-shadow:0 0 15px rgba(0,0,0,0.7);}
+#philosophy .photo h1{left:175.75px;   position: absolute; font-size:75px; color:#fff; top:289.5px; z-index:1;}
+#philosophy .p_in ul{margin-top:30px; height:250px;}
+#philosophy .p_in ul li h1{font-size:20px;  margin:15px 0;}
+#philosophy .p_in ul li{width:25%; float:left; text-align:center; height:250px; box-sizing:border-box; padding-top:30px;}
+#philosophy .p_in ul li:nth-child(1){background:url(../images/fleur/s_2.jpg); border-radius:30px;
+text-align:center; padding-top:114.5px; box-sizing:border-box;}
+#philosophy .p_in ul li:nth-child(3) img{padding-top:15px;}
+#philosophy .p_in ul li:nth-child(4) img{padding-top:15px;}
+#philosophy .p_in ul h2{font-size:20px; color: #fff;}
+#philosophy .p_in ul li h4{position:relative;     top: -200px;
+    left: -100px;
+    font-size: 50px;
+    color: #3e3e3e}
+.btn{margin:auto; display:inline-block; background:#e22c68; padding:10px 20px;
+				border-radius:20px; margin-top:144px;}
+.btn a{color:#fff; font-size:18px; display:inline-block;}
+/*footer*/
+#footer{clear:both; background:#616163;}
+.f_in{padding:15px 0; color:#fff; width:1320px; margin:auto; text-align:left; 
+font-size:12px; line-height:18px; height:108px;}
+#footer .iconhouse {float:right; padding-bottom:50px;}
+#footer .text{float:left;}
+#footer .iconhouse{float:right; margin-right:30px;}
+.iconhome{width:33px; padding-left:10px; height:32px; border-radius:17px; display:inline-block;}
+.icon1{background:url(../images/footer/icon_1.png) no-repeat center;}
+.icon2{background:url(../images/footer/icon_2.png) no-repeat center;}
+.icon3{background:url(../images/footer/icon_3.png) no-repeat center;}
+.icon4{background:url(../images/footer/icon_4.png) no-repeat center;}
+.icon1:hover{background:url(../images/footer/icon_5.png) no-repeat center;}
+.icon2:hover{background:url(../images/footer/icon_6.png) no-repeat center;}
+.icon3:hover{background:url(../images/footer/icon_7.png) no-repeat center;}
+.icon4:hover{background:url(../images/footer/icon_8.png) no-repeat center;}
